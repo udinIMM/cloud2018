@@ -1,6 +1,6 @@
 ## **Tugas Sesi Lab Modul 1**
 ### Soal & Jawaban:
-1. Buat vagrant virtualbox dan buat user 'awan' dengan password 'buayakecil'.<br>
+1. Buat vagrant virtualbox dan buat user 'awan' dengan password 'buayakecil'.
 &nbsp;&nbsp;&nbsp;<p>Langkah pertama, kami membuat *script bash* yang berisikan *command* dari linux untuk membuat *user* & *password* baru.</p>
 ![bash script](img/soal1_1.png)
 &nbsp;&nbsp;&nbsp;<p>Langkah kedua, kami menambahkan `config.vm.provision :shell, path: "soal1.sh"` pada **Vagrantfile** dan melakukan `vagrant reload --provision`.</p>
