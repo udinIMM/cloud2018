@@ -9,8 +9,8 @@ Soal :
 <br>
 1. Buatlah Vagrantfile sekaligus provisioning-nya untuk menyelesaikan kasus.<br>
 2. Analisa apa perbedaan antara ketiga algoritma tersebut.<br>
-3. Biasanya pada saat membuat website, data user yang sedang login disimpan pada session. Sesision secara default tersimpan pada memory pada sebuah host. Bagaimana cara mengatasi masalah session ketika kita melakukan load balancing?
-<br><br>
+3. Biasanya pada saat membuat website, data user yang sedang login disimpan pada session. Sesision secara default tersimpan pada memory pada sebuah host. Bagaimana cara mengatasi masalah session ketika kita melakukan load balancing?<br>
+<br>
 Petunjuk
 <br>
 1. Lakukan soal nomor 1 dan dokumentasikan bagaimana cara setupnya pada laporan markdown.<br>
