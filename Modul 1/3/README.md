@@ -104,6 +104,6 @@ sudo service php7.1-fpm restart
 &nbsp;&nbsp;&nbsp;**Tambahan**:
 &nbsp;&nbsp;&nbsp;<p>Jika ingin me*remote* **mysql** harus menggunakan perintah di bawah ini:</p>
 ```bash
-sed -i '43s/.*/bind-address  = 0.0.0.0/' /etc/mysql/mysql.conf.d/mysqld.cnf
+sed -i '\s/.*/bind-address  = 0.0.0.0/' /etc/mysql/mysql.conf.d/mysqld.cnf
 service mysql restart
 ```
