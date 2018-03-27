@@ -4,13 +4,13 @@
 ### - Ilham Muhammad Misbahuddin (5115100088)
 
 <p>Buatlah sistem load balancing dengan 1 load balancer(nginx dan 2 worker(apache2), terapkan algoritma load balancing round-robin, least-connected, dan ip-hash.</p>
-<br>
+
 Soal :
 <br>
 1. Buatlah Vagrantfile sekaligus provisioning-nya untuk menyelesaikan kasus.<br>
 2. Analisa apa perbedaan antara ketiga algoritma tersebut.<br>
 3. Biasanya pada saat membuat website, data user yang sedang login disimpan pada session. Sesision secara default tersimpan pada memory pada sebuah host. Bagaimana cara mengatasi masalah session ketika kita melakukan load balancing?
-<br>
+<br><br>
 Petunjuk
 <br>
 1. Lakukan soal nomor 1 dan dokumentasikan bagaimana cara setupnya pada laporan markdown.<br>
