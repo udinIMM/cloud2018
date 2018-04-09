@@ -1,0 +1,4 @@
+## **Tugas Sesi Lab Modul 5**
+### Soal & Jawaban:
+3. Biasanya pada saat membuat website, data user yang sedang login disimpan pada session. Session secara default tersimpan pada memory pada sebuah host. Bagaimana cara mengatasi masalah session ketika kita melakukan load balancing?<br>
+&nbsp;&nbsp;&nbsp;<p>Salah satu alternatif yang bisa digunakan adalah dengan konsep *sticky session*. Cara kerja *sticky session* biasanya pada *hit* pertama, user akan diberikan penanda berbentuk *cookie*. Pada *hit* berikutnya, load balancer akan melihat *cookie*nya dan mengarahkan ke server yang sebelumnya sudah mengurus user tersebut.</p>
